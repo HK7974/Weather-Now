@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710862996840",
+    "project_id": "weather-now-5fe43",
+    "storage_bucket": "weather-now-5fe43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710862996840:android:1fbcf845f6dc00d16c42dd",
+        "android_client_info": {
+          "package_name": "com.example.weathernow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710862996840-slv3o8t05bq37bp11n9r35tn85krjejl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYOxNYjmPrQ7qFFfKeDkG9kDVcFV36658"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710862996840-slv3o8t05bq37bp11n9r35tn85krjejl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
