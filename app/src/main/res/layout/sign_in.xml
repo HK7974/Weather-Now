@@ -109,29 +109,16 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:background="@color/white"
+            android:hint="Enter your password"
             android:maxLines="1"
             android:paddingBottom="12dp"
             android:singleLine="true"
-            android:hint="Enter your password"
             android:textColor="@color/black"
             tools:layout_editor_absoluteX="50dp"
             tools:layout_editor_absoluteY="592dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:text="Forgot password "
-        android:textColor="@color/white"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.115" />
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signinbutton"
