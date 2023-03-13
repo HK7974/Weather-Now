@@ -25,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 
 @Suppress("DEPRECATION")
-const val url = "https://api.openweathermap.org/data/2.5/weather?"
+const val url = ""
 class MainActivity : AppCompatActivity() {
     lateinit var fusedLocationProviderClient: FusedLocationProviderClient
     lateinit var locationRequest: LocationRequest
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         val weatherid = 600
         val loca: TextView = findViewById(R.id.Address)
 
-        getweatherdata();
+    //    getweatherdata();
 
 
 
@@ -91,19 +91,19 @@ class MainActivity : AppCompatActivity() {
             .baseUrl(url)
             .build()
             .create(APIinterface::class.java)
-        val retrofitdata = retro.getdata()
-        retrofitdata.enqueue(object : Callback<List<apidata>?> {
+      val retrofitdata = retro.getdata()
+       retrofitdata.enqueue(object : Callback<List<apidata>?> {
             override fun onResponse(
                 call: Call<List<apidata>?>,
-                response: Response<List<apidata>?>
-            ) {
+               response: Response<List<apidata>?>
+           ) {
 
             }
 
             override fun onFailure(call: Call<List<apidata>?>, t: Throwable) {
 
             }
-        })
+       })
     }
 
 
