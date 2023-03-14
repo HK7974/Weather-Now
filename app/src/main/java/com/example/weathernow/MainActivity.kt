@@ -55,9 +55,9 @@ class MainActivity : AppCompatActivity() {
         currentweather.text = weather.toString()
 
         val logoid = when (weatherid) {
-            200 -> R.drawable.cloud//Thunderstorm
+            200 -> R.drawable.thunderstorm//Thunderstorm
             500 -> R.drawable.rain//rain
-            600 -> R.drawable.rain //snow
+            600 -> R.drawable.snow //snow
             801 -> R.drawable.cloud // cloudy
             else -> R.drawable.sun //clear sky
         }
